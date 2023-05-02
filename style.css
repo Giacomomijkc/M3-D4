@@ -1,0 +1,58 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+#logo{
+    width: 120px;
+}
+
+/*nav{
+    background-color: darkgray;
+}*/
+
+@media screen and (max-width: 223px){
+    #logo {
+        width: 30px;
+    }
+}
+
+.thai-foto{
+    width: 100%;
+}
+
+.bg-custom{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.white-color{
+    color: white;
+}
+
+@media screen and (max-width: 412px){
+    #offertadelgiorno {
+        display:none;
+    }
+    #offertadelgiornonav{
+        display:none;
+    }
+}
+
+.image-custom{
+    max-width: 100%; 
+    height: auto;
+}
+
+.custom-fix{
+    max-height: 146px;
+}
+
+.test{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
